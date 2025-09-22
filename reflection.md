@@ -1,0 +1,5 @@
+# Reflection
+
+During the setup of my Django environment, I faced several challenges that slowed me down at first. One of the main issues was activating the virtual environment in PowerShell. I got an error saying that running scripts was disabled. I solved this by learning how to change the execution policy so that PowerShell could allow script execution, which then let me activate my venv successfully. Another challenge was setting up my project URLs. Initially, I wrote the `include('main.urls')` incorrectly in `urls.py`, which caused the homepage not to load. With guidance, I fixed this by adding the correct path argument, `path('', include('main.urls'))`.  
+
+I also had some confusion about how to make my site minimalistic and where exactly to run Django commands inside VS Code. By asking questions and testing step by step, I managed to get both the home and about pages working. Finally, I learned how to set up Git and connect it to GitHub. Overall, the process was a bit tricky, but solving these problems taught me more about debugging errors and carefully following Django’s syntax.
